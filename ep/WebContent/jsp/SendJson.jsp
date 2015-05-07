@@ -20,7 +20,7 @@ var send = function(){
 	
 	
 	var xmlhttp = new XMLHttpRequest();
-	var url = "/ePortfolio/example/demo/jsonPost";
+	var url = "/ep/example/demo/jsonPost";
 
 	xmlhttp.onreadystatechange = function() {
 	    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
