@@ -1,8 +1,7 @@
 package views;
 
 import java.io.ByteArrayOutputStream;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
+
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
