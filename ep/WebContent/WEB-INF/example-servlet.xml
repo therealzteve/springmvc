@@ -11,18 +11,11 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
 
-	<!--  <context:component-scan base-package="controller" />
-	<mvc:annotation-driven />-->
+	<context:component-scan base-package="controller" />
+	<mvc:annotation-driven />
 
-	<bean id="viewResolver"
-		class="org.springframework.web.servlet.view.UrlBasedViewResolver">
-		<property name="viewClass"
-			value="org.springframework.web.servlet.view.JstlView" />
-		<property name="prefix" value="/jsp/" />
-		<property name="suffix" value=".jsp" />
-	</bean>
 
-<!-- 	<bean
+ 	<bean
 		class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
 		<property name="mediaTypes">
 			<map>
@@ -51,5 +44,5 @@
 		</property>
 	</bean>
 
-	<bean id="simple" class="view.XmlView"/> -->
+	<bean id="simple" class="view.XmlView"/> 
 </beans>
